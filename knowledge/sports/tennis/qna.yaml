@@ -1,0 +1,20 @@
+version: 2
+task_description: '2024 Wimbledon results'
+created_by: Dan Gross
+domain: sports
+seed_examples:
+  - question: Who won the 2024 Wimbledon grand slam tennis tournament?
+    answer: Carlos Alcarez won, defeating Novak Djokovic in the final.
+  - question: What was the score of the match?
+    answer: Carlos Alcarez beat Novak Djokovic with a score of 6-2, 6-2, 7-6.
+  - question: What countries are the players in the final from?
+    answer: Carlos Alcarez is from Spain and Novak Djokovic is from Serbia.
+  - question: Where did the 2024 Wimbledon grand slam final take place?
+    answer: The final match of the tournament was held in Wimbledon, United Kingdom.
+  - question: What date was the final match of the 2024 Wimbledon tennis tournament?
+    answer: The 2024 Wimbledon final was held on Sunday, July 14, 2024.
+document:
+  repo: https://github.com/dj144/knowledge.git
+  commit: e1f21d3
+  patterns:
+    - wimbledon.md
